@@ -1,0 +1,317 @@
+.name {
+    width: 18%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 20pt;
+    font-family: 'Georgia, Times, Times New Roman, serif';
+    background-color: #4aaaa5;
+    left: 120px;
+    color: white;
+    float: left;
+    margin-left: 10%;
+    font-weight: bold;
+    line-height:60px;
+
+}
+.headerbox {
+    width: 13%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:  white;
+    color:  #ccc;
+    float: right;
+    font-size: 14pt; 
+    line-height:60px;
+}
+.Header{
+    height: 60px;
+    background-color: white;
+}
+.contact{
+    margin-right:10%;
+}
+.body{
+    background-color: #ccc;
+}
+
+.center{
+    Margin-right: 10%;
+    Margin-left: 10%;
+    Margin-top: 5%;
+    Margin-bottom:10%;
+    background-color:white;
+    overflow:auto;
+}
+.aboutme{
+    color:teal;
+    font-size:28pt;
+    font-family: 'Georgia, Times, Times New Roman, serif';
+    float:left;
+    Margin-left:70px;
+    Margin-right:50px;
+    Margin-Top:30px;
+    Margin-bottom:30px;
+    font-weight: bold;
+}
+.content{
+    height:75%;
+    line-height: 40px;
+    clear: both;
+    position: relative;
+    padding: 60px;
+    font-size: 16pt;
+    color:  rgb(173, 173, 173);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.pic{
+    position: relative;
+    width: 40%;
+    height: 55%;
+    margin-right:40px;
+    margin-bottom:40px;
+    float: left;
+    clear:both;
+}
+.blueoutline{
+    position: relative;
+    float:left;
+    background-color:teal;
+    width:100%;
+    height:10px;
+    bottom:-36px;
+}
+.footer{
+    background-color:#333;
+    position: relative;
+    clear:both;
+    text-align:center;
+    width: 100%;
+    line-height:125px;
+    color:rgb(190, 188, 188);
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 75px;
+    bottom: -36px;
+}
+.headerShadow{
+    background-color:rgb(158, 158, 158);
+    float:left;
+    width:100%;
+    height: 2px;
+}
+.headerShadow2{
+    background-color:rgb(158, 158, 158);
+    float:left;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    height: 2px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+}
+
+input[type=text2], select, textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+.portpic{
+    position: relative;
+    width:250px;
+    height:250px;
+    margin: 2.5%;
+    float: left;
+}
+.portpic1{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.label{
+    position: relative;
+    background-color:teal;
+    width:100%;
+    height:15%;
+    text-align:center;
+    line-height:200%;
+    font-size:16pt;
+    color:white;
+    top: -25%;
+}
+
+@media only screen and (max-width: 768px) {
+    .name {
+        width: 22%;
+        height: 100%;
+        text-align: center;
+        vertical-align: text-bottom;
+        font-size: 22pt;
+        font-family: 'Georgia, Times, Times New Roman, serif';
+        background-color: #4aaaa5;
+        color: white;
+        float: left;
+        font-weight: bold;
+        line-height:75px;
+        margin-left:2.5%;
+    
+    }
+    .headerbox {
+        width: 13%;
+        height: 80%;
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        background-color:  white;
+        color:  #ccc;
+        float: right;
+        font-size: 14pt; 
+        line-height:75px;
+    }
+    .Header{
+        height: 75px;
+        background-color: white;
+    }
+    .center{
+        Margin-right: 2.5%;
+        Margin-left: 2.5%;
+        Margin-top: 5%;
+        Margin-bottom:10%;
+        background-color:white
+    }
+    .contact{
+        margin-right:0;
+    }
+   
+    .content{
+        position: relative;
+        font-size: 16pt;
+        color:  rgb(173, 173, 173);
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .aboutme{
+        color:teal;
+        font-size:28pt;
+        font-family: 'Georgia, Times, Times New Roman, serif';
+        float:left;
+        Margin-left:25px;
+        Margin-right:25px;
+        Margin-Top:30px;
+        Margin-bottom:30px;
+        font-weight: bold;
+    
+    
+    }
+    .pic{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        margin-bottom:40px;
+        float: left;
+        clear:both;
+    }
+    .name {
+        width: 100%;
+        height: 90px;
+        margin: 0px;
+        padding: 0px;
+        top: 0;
+        text-align: center;
+        vertical-align: text-bottom;
+        font-size: 28pt;
+        font-family: 'Georgia, Times, Times New Roman, serif';
+        background-color: #4aaaa5;
+        color: white;
+        float: left;
+        font-weight: bold;
+    
+    }
+    .headerbox {
+        line-height: 90px;
+        width: 33.3%;
+        height: 90px;
+        margin: 0px;
+        padding: 0px;
+        top: 0;
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        background-color:  white;
+        color:  #ccc;
+        float: right;
+        font-size: 14pt; 
+    }
+    .center{
+        width:90%;
+        Margin-right: 5%;
+        Margin-left: 5%;
+        Margin-top: 5%;
+        Margin-bottom:10%;
+        background-color:white
+    }
+    .body{
+        background-color:white
+    }
+    .content{
+        line-height: 40px;
+        clear: both;
+        position: relative;
+        padding: 20px;
+        font-size: 16pt;
+        color:  rgb(173, 173, 173);
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    .portpic{
+        position: relative;
+        width:500px;
+        height:500px;
+    }
+    .label{
+        position: relative;
+        background-color:teal;
+        width:100%;
+        height:15%;
+        text-align:center;
+        line-height:175%;
+        font-size:32pt;
+        color:white;
+        top: -25%;
+    }
+
+}
